@@ -3,9 +3,11 @@ import ShoppingList from "./ShoppingList"
 import AddPopularProduct from "./AddPopularProduct"
 import AddProductForm from "./AddProductForm"
 
-const ShoppingApp = () => {
+const ShoppingApp = (props) => {
 
-  const [shopping, setShopping] = React.useState([])
+  const { } = props
+
+  const [shopping, setShopping] = useState(['curry', 'cumin'])
 
   const addToShoppingList = (product) => {
     setShopping([...shopping, product])
