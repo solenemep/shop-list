@@ -3,9 +3,7 @@ import ShoppingList from "./ShoppingList"
 import AddPopularProduct from "./AddPopularProduct"
 import AddProductForm from "./AddProductForm"
 
-const ShoppingApp = (props) => {
-
-  const { } = props
+const ShoppingApp = () => {
 
   const [shopping, setShopping] = useState(['curry', 'cumin'])
 

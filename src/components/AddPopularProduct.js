@@ -9,6 +9,13 @@ const AddPopularProduct = (props) => {
     { text: "pizza", emoji: "🍕" },
     { text: "salade", emoji: "🥬" },
     { text: "oranges", emoji: "🍊" },
+    { text: "riz", emoji: "🍚" },
+    { text: "chocolat", emoji: "🍫" },
+    { text: "fraises", emoji: "🍓" },
+    { text: "carottes", emoji: "🥕" },
+    { text: "fromage", emoji: "🧀" },
+    { text: "vin", emoji: "🍷" },
+    { text: "raisin", emoji: "🍇" }
   ]
 
   return (
