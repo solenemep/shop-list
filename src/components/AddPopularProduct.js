@@ -4,23 +4,21 @@ const AddPopularProduct = (props) => {
   const { shopping, addToShoppingList } = props
 
   const populars = [
-    { text: "pain", emoji: "🥖" },
-    { text: "lait", emoji: "🥛" },
+    { text: "bread", emoji: "🥖" },
+    { text: "milk", emoji: "🥛" },
     { text: "pizza", emoji: "🍕" },
     { text: "salade", emoji: "🥬" },
-    { text: "oranges", emoji: "🍊" },
-    { text: "riz", emoji: "🍚" },
-    { text: "chocolat", emoji: "🍫" },
-    { text: "fraises", emoji: "🍓" },
-    { text: "carottes", emoji: "🥕" },
-    { text: "fromage", emoji: "🧀" },
-    { text: "vin", emoji: "🍷" },
-    { text: "raisin", emoji: "🍇" }
+    { text: "orange", emoji: "🍊" },
+    { text: "rice", emoji: "🍚" },
+    { text: "chocolate", emoji: "🍫" },
+    { text: "cheese", emoji: "🧀" },
+    { text: "wine", emoji: "🍷" },
+    { text: "grappes", emoji: "🍇" }
   ]
 
   return (
     <section>
-      <h3 className="h5">Avez vous besoin de ?</h3>
+      <h3 className="h5">Do you need ... ?</h3>
       <div className="mb-3 d-flex flex-wrap align-items-center">
         {populars.map((el) => (
           <button

@@ -10,7 +10,7 @@ const AddProductForm = (props) => {
     const newProduct = event.target.elements.product.value
     // s'assurer que la liste contient des produits uniques
     if (shopping.includes(newProduct)) {
-      alert(`${newProduct} est déjà sur la liste`)
+      alert(`${newProduct} is already on the list`)
     } else {
       addToShoppingList(newProduct)
     }
@@ -24,11 +24,11 @@ const AddProductForm = (props) => {
         <input
           id="product"
           className="form-control"
-          aria-label="Ajouter sur la liste"
+          aria-label="Add to list"
           required
         />
         <button type="submit" className="btn btn-success btn-lg">
-          J'ajoute !
+          Add
         </button>
       </div>
     </form>

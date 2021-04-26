@@ -12,7 +12,7 @@ const ShoppingList = (props) => {
 
   return (
     <>
-      <h2 className="mb-3 h4">Produits à acheter ({shopping.length}) :</h2>
+      <h2 className="mb-3 h4">Products to buy ({shopping.length}) :</h2>
       <div className="input-group mb-3">
         <span role="img" aria-label="search" className="input-group-text">
           🔎
@@ -21,15 +21,15 @@ const ShoppingList = (props) => {
           type="search"
           value={filter}
           onChange={(e) => setFilter(e.target.value)}
-          placeholder="Rechercher dans votre liste des courses ..."
-          aria-label="Chercher"
+          placeholder="Search ..."
+          aria-label="Search"
           className="form-control"
         />
       </div>
       {filter && (
         <p className="d-flex justify-content-between">
           <span>
-            Produits qui commencent par <i>{filter}</i>
+            Product name starting by <i>{filter}</i>
           </span>
           <button
             className="btn btn-light btn-sm"
